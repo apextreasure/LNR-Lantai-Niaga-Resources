@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="LNR Logo">
+  <!-- Solid Forest Green Background matching LNR.png -->
+  <rect width="600" height="300" fill="#0E5E35" />
+  
+  <!-- Upper Yellow Horizontal Stripe -->
+  <rect x="36" y="38" width="528" height="15" fill="#FED100" />
+  
+  <!-- Lower Yellow Horizontal Stripe -->
+  <rect x="36" y="247" width="528" height="15" fill="#FED100" />
+  
+  <!-- L (White) -->
+  <path d="M 96,68 L 138,68 L 138,194 L 202,194 L 202,232 L 96,232 Z" fill="#FFFFFF" />
+  
+  <!-- N (Red) -->
+  <path d="M 224,232 L 224,68 L 262,68 L 320,182 L 320,68 L 358,68 L 358,232 L 320,232 L 262,118 L 262,232 Z" fill="#E51E2B" />
+  
+  <!-- R (White) -->
+  <path d="M 378,68 L 452,68 C 484,68 504,82 504,110 C 504,132 488,146 462,152 L 508,232 L 464,232 L 424,158 L 418,158 L 418,232 L 378,232 Z M 418,98 L 418,130 L 448,130 C 464,130 472,122 472,114 C 472,106 464,98 448,98 Z" fill="#FFFFFF" />
+</svg>

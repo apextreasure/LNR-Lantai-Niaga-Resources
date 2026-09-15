@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" width="240" height="70" role="img" aria-label="CIDB Malaysia">
+  <!-- CIDB Text & Hexagon Emblem -->
+  <text x="5" y="44" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#0C7844" letter-spacing="1">CIDB</text>
+  <text x="6" y="60" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="11" fill="#0C7844" letter-spacing="4">MALAYSIA</text>
+  
+  <!-- Hexagonal construction mark -->
+  <g transform="translate(142, 10)">
+    <polygon points="25,2 48,15 48,43 25,56 2,43 2,15" fill="none" stroke="#0C7844" stroke-width="4" />
+    <path d="M 12,24 L 25,16 L 38,24 L 38,36 L 25,43 L 12,36 Z" fill="#0C7844" />
+    <path d="M 25,16 L 25,43 M 12,24 L 38,36 M 38,24 L 12,36" stroke="#FFFFFF" stroke-width="2" />
+  </g>
+</svg>

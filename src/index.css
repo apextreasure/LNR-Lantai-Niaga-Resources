@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1F2421;
+    background-color: #FAF7F2;
+    scroll-behavior: smooth;
+  }
+
+  /* Accessible focus indicators */
+  *:focus-visible {
+    outline: 3px solid #0D6236;
+    outline-offset: 3px;
+  }
+
+  /* Support reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Typography styles */
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Glassmorphism with opaque fallback for readability */
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(230, 213, 195, 0.6);
+}
+
+@supports not (backdrop-filter: blur(12px)) {
+  .glass-panel {
+    background-color: #FFFFFF;
+  }
+}
+
+.glass-panel-dark {
+  background-color: rgba(23, 29, 25, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Accessible button base: minimum 48px height */
+.btn-accessible {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.4;
+  white-space: nowrap;
+}
